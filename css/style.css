@@ -15,6 +15,10 @@ ul, ol{
     list-style-type: none;
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
 /* Common--Root */
 
 :root{
@@ -193,6 +197,21 @@ nav .button a{
 
 
 /* choose part end */
+/* #choose{
+    position: relative;
+}
+.choose_element img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+} */
+
+#choose .choose_wrapper{
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background-color: #FDFDFD;;
+}
 
 .choose_left_circle{
     width: 10%;
@@ -220,7 +239,68 @@ nav .button a{
 
 }
 
+.choose_left_content{
+    padding-right: 153px;
+}
+
 .choose_left_content p{
-    padding-left: 10px;
-    padding-right: 10px;
+font-family: 'Paprika';
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #726E9E;
+}
+
+.choose_left:hover:first-child{
+background: #FFFFFF;
+box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+border-radius: 12px;
+padding-top: 42px;
+padding-bottom: 42px;
+}
+
+.choose_left:first-child{
+    margin-bottom: 32px;
+}
+
+.choose_left:nth-child(3){
+    margin-bottom: 0px;
+}
+
+.choose_left:last-child{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.choose_left{
+    margin-bottom: 17px;
+}
+
+.choose_right_content h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    color: #141135;
+    text-transform: capitalize;
+}
+
+.choose_right_content p{
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    color: #726E9E;
+    margin-top: 9px;
+    margin-bottom: 41px;
+}
+
+
+.choose_right button{
+padding: 20px 40px;
+background: #1BBF00;
+border-radius: 100px;
+border: none;
+color: #F9F9F9;
+}
+
+.choose_right_content{
+    padding-right: 100px;
 }
