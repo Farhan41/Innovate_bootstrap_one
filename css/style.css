@@ -309,6 +309,11 @@ background: #1BBF00;
 border-radius: 100px;
 border: none;
 color: #F9F9F9;
+
+font-family: 'Open Sans';
+
+font-weight: 700;
+font-size: 20px;
 }
 
 .choose_right_content{
@@ -318,4 +323,128 @@ color: #F9F9F9;
 
 /* choose part end */
 
+/* Service part start */
 
+#service{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F6F5FF;;
+}
+.service-start h3{
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 48px;
+color: #141135;
+}
+
+.service-start p{
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #6C7D93;
+    text-align: justify;
+}
+
+.service-start button{
+    margin-top: 56px;
+    padding: 20px 40px;
+    background: #1BBF00;
+    border-radius: 100px;
+    border: none;
+    color: #F9F9F9;
+    
+    font-family: 'Open Sans';
+    
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+.service-content h4{
+    margin-top: 32px;
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 30px;
+color: #141135;
+}
+
+.service-content:hover h4{
+    color:  #FAFAFE;
+}
+
+.service-content:hover p{
+    color:  #FAFAFE;
+}
+
+.service-content:hover a{
+    color:  #FAFAFE;
+}
+
+.service-content p{
+    margin-top: 32px;
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: #726E9E;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.service-content a{
+display: inline-block;
+margin-top: 20px;
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 18px;
+color: #141135;
+padding: 8px 10px;
+overflow: hidden;
+border-radius: 100px;
+position: relative;
+z-index: 1;
+
+
+}
+
+.service-content a::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(25, 191, 0, 0.302);
+    padding: 8px 10px;
+    top: 0;
+    left: 87px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all linear 0.3s;
+
+}
+
+.service-content:hover a::after{
+    background-color:  rgba(250, 250, 254, 0.3) ;
+}
+
+.service-box{
+    background-color: #fff;
+    padding: 48px 52px 0 48px;
+    border-radius: 20px;
+    box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.1);
+    height: 420px;
+    transition: all linear 0.3s;
+}
+
+.service-content a:hover::after{
+    left:0;
+}
+
+.service-box:hover{
+    background-color: #6B62C5;
+}
+
+/* Service part end */
