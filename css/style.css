@@ -448,3 +448,53 @@ z-index: 1;
 }
 
 /* Service part end */
+
+/* create part start */
+
+#create{
+    position: relative;
+}
+
+#create .outside{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.create_header h2{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    color: #141135;
+}
+
+.create_header p{
+    margin-top: 23px;
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: #726E9E;
+}
+
+.inner_create_content h5{
+    font-family: 'Open Sans';
+font-weight: 700;
+font-size: 30px;
+letter-spacing: 0.5px;
+color: #141135;
+}
+
+.inner_create_content p{
+    margin-top: 20px;
+    font-family: 'Paprika';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: #726E9E;
+}
+
+/* create part end */
