@@ -432,10 +432,9 @@ z-index: 1;
 
 .service-box{
     background-color: #fff;
-    padding: 48px 52px 0 48px;
+    padding: 48px 52px 48px 52px;
     border-radius: 20px;
     box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.1);
-    height: 420px;
     transition: all linear 0.3s;
 }
 
@@ -580,3 +579,81 @@ margin-bottom: 16px;
 
 /* blog part end */
 
+/* plan part start */
+
+#plan{
+    background-color: #F9F9FB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.plan_content{
+    background: #FFFFFF;
+box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.15);
+border-radius: 20px;
+padding-top: 60px;
+padding-bottom: 60px;
+transition: all linear 0.3s;
+}
+
+.plan_heading h2{
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 48px;
+color: #141135;
+}
+
+.plan_content h4{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+color: #141135;
+margin-bottom: 26px;
+}
+
+.plan_image{
+    margin-bottom: 20px;
+}
+
+.plan_rate h4{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+color: #1BBF00;
+margin-bottom: 0;
+}
+
+.plan_content:hover{
+    background-color: #6B62C5;
+}
+
+.plan_content:hover > h4{
+    color: #FAFAFE;
+}
+
+.plan_content:hover p{
+    color: #FAFAFE;
+}
+
+.plan_rate .sign{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+color: #1BBF00;
+}
+
+.plan_content p{
+font-family: 'Paprika';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #726E9E;
+padding-left: 90px;
+padding-right: 90px;;
+}
+
+/* plan part end */
