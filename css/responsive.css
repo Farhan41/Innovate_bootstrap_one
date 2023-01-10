@@ -1,0 +1,49 @@
+@media (max-width:575px){
+    .navbar {
+        background-color: rgb(22, 12, 109);
+    }
+
+    .navbar .button{
+        text-align: center;
+    }
+
+    #banner .banner_content h1 {
+        font-size: 40px;
+    }
+
+    #banner .banner_content p {
+        font-size: 13px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .banner-btn a {
+        padding: 13px 18px;
+        font-size: 13px;
+    }
+
+    #banner .overlay {
+        padding-top: 185px;
+        padding-bottom: 70px;
+    }
+
+    .client_content h2 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .client_content h4 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .client_content{
+        border-right: none;
+    }
+
+    #client .container {
+        padding-top: 62px;
+        padding-bottom: 58px;
+    }
+
+
+}
